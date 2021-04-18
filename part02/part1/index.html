@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Registration</h1>
+    <fieldset>
+        <legend>Start</legend>
+        <label for="name">Enter your name</label>
+        <br>
+        <input type="text" name="registration_login" id="name">
+        <br>
+        <label for="email">Enter email</label>
+        <br>
+        <input type="email" name="registration_email" id="email">
+        <br>
+        <label for="password">Enter password</label>
+        <br>
+        <input type="password" name="registration_password" id="password">
+    </fieldset>
+
+    <fieldset>
+        <legend>Your profession</legend>
+        <label for="position">Who are you ? </label>
+        <br>
+        <select name="profession" id="position">
+        <option value="student">student</option>
+        <option value="worker">worker</option>
+        <option value="teacher">teacher</option>
+        <option hidden disabled selected>Choose one</option>
+        </select>
+        <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>How many kilograms do you need ? </legend>
+        <input type="radio" name="kilogrmas" id="k1" value="1">
+        <label for="k1">less than 1</label>
+        <br>
+        <input type="radio" name="kilograms" id="k2" value="2">
+        <label for="k2">1</label>
+        <br>
+        <input type="radio" name="kilograms" id="k3" value="3">
+        <label for="k3">2</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Info about yourself</legend>
+        <label for="birth">Enter birth date</label>
+        <br>
+        <input type="date" name="dataBirth" id="birth">
+        <br>
+        <label for="about">Tell about yourself</label>
+        <br>
+        <textarea name="Message" id="about"></textarea>
+    </fieldset>
+
+    <label>
+    <input type="checkbox" name="agree">
+    I agree to the 
+    <a href="#">privacy policy</a>
+    and
+    <a href="#">terms of use</a>
+</label>
+    <br>
+    <input type="submit" value="Submit registration">
+
+    <h1>Список покупок</h1>
+    <ol>
+        <form>
+            <li><input type="checkbox" id="meat" name="meat" value="Meat">
+                <label for="meat">Мясо</label><br></li>
+            <li><input type="checkbox" id="eggs" name="eggs" value="Eggs">
+                <label for="eggs">Яйца</label><br></li>
+            <li><input type="checkbox" id="milk" name="milk" value="Milk">
+                <label for="milk">Молоко</label></li>
+        </form>
+    </ol>
+
+</body>
+
+</html>
