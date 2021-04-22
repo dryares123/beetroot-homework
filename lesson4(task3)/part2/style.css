@@ -1,0 +1,151 @@
+h1 {
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+
+/*
+.http {
+    text-align: center;
+    color: white;
+}
+
+.httpHr {
+    border-bottom: 0.1px solid white;
+    padding-bottom: 0.5px;
+    margin-bottom: 0.1em;
+}
+*/
+
+.youtube {
+    text-align: center;
+    width: 400;
+    height: 400;
+    margin-right: 37%;
+    margin-left: 37%;
+}
+
+body {
+    background-color: #990909;
+}
+
+.thumb {
+    background-color: black;
+}
+
+.thumb figure {
+    width: 17%;
+    margin: 1%;
+    display: inline-block;
+}
+
+.thumb img {
+    width: 250px;
+    height: auto;
+}
+
+.thumb figcaption {
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.img1 {}
+
+.img2 {}
+
+.img3 {}
+
+.img4 {}
+
+.main {
+    text-align: center;
+}
+
+.mainh1 {
+    color: white;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.mainh2 {
+    color: white;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.left {
+    background: #7D0909;
+    width: 200px;
+    height: 300px;
+    float: left;
+    word-spacing: 10px;
+}
+
+.loremleft {
+    text-align: left;
+    text-decoration: underline;
+    color: #E57609;
+    line-height: 2.5;
+    margin: 0px;
+    padding: 0px;
+}
+
+.right {
+    background: #9c988c;
+    width: 180px;
+    height: 330px;
+    float: right;
+    word-spacing: 5px;
+    padding: 0px;
+    color: black;
+}
+
+.hr1 {
+    border-bottom: 0.1px solid grey;
+    padding-bottom: 0.5px;
+}
+
+.hr2 {
+    border-bottom: 0.1px solid grey;
+    padding-bottom: 0.5px;
+}
+
+.hr3 {
+    border-bottom: 0.1px solid grey;
+    padding-bottom: 0.5px;
+}
+
+#p1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#p2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#p3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h4 {
+    background-color: #58554f;
+    margin: 0px;
+}
+
+footer {
+    background-color: #E57609;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}

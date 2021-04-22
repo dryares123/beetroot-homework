@@ -1,0 +1,77 @@
+h1 {
+    background: #A52A2A;
+    ;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sunset {
+    width: 100%;
+    height: auto;
+}
+
+#p1 {
+    font-size: 18px;
+}
+
+#p2 {
+    font-size: 18px;
+}
+
+.vel {
+    color: blue;
+}
+
+.cars {
+    text-align: center;
+}
+
+.car1 {
+    text-align: center;
+    border-color: black;
+    border-width: 3px;
+    border-style: dashed;
+}
+
+.car2 {
+    text-align: center;
+    border-color: black;
+    border-width: 3px;
+    border-style: dashed;
+}
+
+.car3 {
+    text-align: center;
+    border-color: black;
+    border-width: 3px;
+    border-style: dashed;
+}
+
+.car4 {
+    text-align: center;
+    border-color: black;
+    border-width: 3px;
+    border-style: dashed;
+}
+
+.car5 {
+    text-align: center;
+    border-color: black;
+    border-width: 3px;
+    border-style: dashed;
+}
+
+.lorem {
+    color: #9FDFFF;
+}
+
+footer {
+    background-color: black;
+}
+
+.copyright {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+}
