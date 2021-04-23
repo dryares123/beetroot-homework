@@ -1,0 +1,61 @@
+body {
+    background-color: #121116;
+}
+
+.logo-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 300px;
+}
+
+.we-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.separator-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    font-size: 40px;
+    width: 63px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.rights {
+    position: fixed;
+    bottom: 0px;
+    padding-left: 910px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.kasper {
+    color: #19c8fa;
+}
+
+.addinfo {
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clear {
+    clear: both;
+}
