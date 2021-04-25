@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    transition: all .1s ease-in;
+}
+
+.header {
+    background-color: #5b3890;
+}
+
+.header-h1 {
+    text-align: center;
+    color: #e88c81;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.header-h4 {
+    text-align: center;
+    color: #e88c81;
+    line-height: 1.5;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+body {
+    background-color: #373e40;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Trebuchet, Arial, sans-serif;
+}
+
+.list {
+    margin-top: 50px;
+    padding-left: 550px;
+    padding-right: 550px;
+}
+
+.list-item {
+    background-color: #88839e;
+    color: white;
+    line-height: 2.5;
+    font-size: 23px;
+    list-style-type: none;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+/*
+.list-item:checked {
+    text-decoration: line-through;
+}
+*/
+
+.list-item:hover {
+    background-color: #4c4f5f;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.list-item input {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.list-item span {
+    opacity: 0.6;
+}
+
+
+/*
+.list-item input:checked+span {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+*/
+
+.finish {
+    justify-content: center;
+    align-content: center;
+}
+
+.btn {
+    margin-top: 50px;
+    font-weight: 700;
+    margin-left: 590px;
+    padding: 15px 20px;
+    background: #1f3191;
+    color: rgb(253, 147, 9);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.25s;
+    text-align: center;
+    width: 550px;
+    height: 70px;
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
