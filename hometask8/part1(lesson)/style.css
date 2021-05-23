@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    min-height: 100vh;
+    background: #fdde7e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    background: white;
+    padding: 40px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 360px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+}
+
+.card * {
+    transition: all .5s;
+}
+
+.card:hover .card_price {
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+
+.card_price {
+    color: #1f995a;
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card_img {
+    margin-bottom: 30px;
+}
+
+.card_title {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.card_description {
+    font-size: 22px;
+    font-weight: 300;
+    opacity: 0.6;
+}
+
+.coffee-cup {
+    height: 135px;
+    position: relative;
+}
+
+.coffee-cup_smoke {
+    width: 49px;
+    height: 46px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.coffee-cup_cup {
+    position: absolute;
+    top: 55px;
+    width: 135px;
+    height: 77px;
+    left: 50%;
+    margin-left: -58px;
+}
+
+.coffee-cup_been {
+    position: absolute;
+    top: 75px;
+    width: 36px;
+    height: 44px;
+    left: 50%;
+    margin-left: -18px;
+}

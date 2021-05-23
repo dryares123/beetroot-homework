@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__container {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.content__subtitle {
+    font-weight: 400;
+    color: black;
+    opacity: 0.6;
+}
+
+.content__title {
+    font-weight: 700;
+    color: #ffcc00;
+    padding-top: 17px;
+}
+
+.main__container {
+    margin: 0 auto;
+    max-width: 1073px;
+    width: 90%;
+}
+
+.main__content {
+    display: flex;
+    float: left;
+    padding-top: 187px;
+}
+
+.container__text {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 187px;
+    padding-left: 278px;
+    max-width: 422px;
+    max-height: 307px;
+}
+
+.content__info {
+    text-align: center;
+}
+
+.text__title {
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.text__undertitle {
+    opacity: 0.6;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 61px;
+}
+
+.icons__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.fa-facebook-square:hover {
+    cursor: pointer;
+    color: rgb(125, 125, 255);
+}
+
+.fa-twitter-square:hover {
+    cursor: pointer;
+    color: rgb(0, 198, 135);
+}
+
+.fa-google-plus-square:hover {
+    cursor: pointer;
+    color: rgb(211, 5, 5);
+}
+
+.fa-instagram-square:hover {
+    cursor: pointer;
+    color: rgb(250, 87, 115);
+}
+
+.container__desription {
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    width: 422px;
+    padding-top: 30px;
+}
+
+.btn {
+    border: 1px solid yellow;
+    color: black;
+    background-color: white;
+    width: 125px;
+    height: 25px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.container__btn {
+    padding-top: 82px;
+}

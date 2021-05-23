@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('img/bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header {
+    padding-top: 102px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-content {
+    max-width: 370px;
+}
+
+.header-content>h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.header-content>p {
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+.fields {
+    height: 100vh;
+    max-width: 1200px;
+    padding: 47px 10px 0;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+}
+
+.input-block__input {
+    display: block;
+    width: 500px;
+    height: 50px;
+    background-color: #7bdcdb;
+    border: none;
+    padding-left: 18px;
+    margin-top: 15px;
+}
+
+.input-block__input:hover {
+    transform: translateX(20px);
+    background-color: #00c4c4;
+}
+
+.input-block__textarea {
+    display: block;
+    border: none;
+    background-color: #7bdcdb;
+    padding-top: 15px;
+    width: 500px;
+    height: 250px;
+    margin-top: 15px;
+    padding-left: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.input-block__textarea:active {
+    transform: translateX(20px);
+    background-color: #00c4c4;
+}
+
+.section2 {}
+
+.section2_content {}
+
+
+/*
+.section2__container {
+    display: flex;
+    margin-left: 1135px;
+    margin-top: -900px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 22px;
+}
+
+.content1 {
+    padding-top: 22px;
+    line-height: 25px;
+}
+*/
+
+.footer {
+    width: 100%;
+    background-color: #3d4838;
+    height: 90px;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+.love {
+    color: pink;
+}

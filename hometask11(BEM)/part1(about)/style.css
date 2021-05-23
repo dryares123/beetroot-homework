@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00c0c0;
+    width: 1500px;
+    height: 700px;
+}
+
+.container2 {}
+
+.card2 {}
+
+.card2__img {
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    left: 180px;
+    top: -400px;
+}
+
+.card2__h1 {
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+    left: 735px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card2__p {
+    position: absolute;
+    color: white;
+    top: 260px;
+    left: 735px;
+    font-family: 'Raleway', sans-serif;
+    width: 500px;
+    height: 200px;
+    opacity: 0.9;
+    line-height: 25px;
+}

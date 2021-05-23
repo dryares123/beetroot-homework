@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B07CF7;
+}
+
+.header {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.header-container_p {
+    display: inline-block;
+    padding-top: 50px;
+    width: 570px;
+    line-height: 25px;
+    opacity: 0.9;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card_date {
+    color: white;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: -570px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 8.15);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.card-img1 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -750px;
+}
+
+.card_description {
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: -570px;
+    z-index: 2;
+    text-align: left;
+}
+
+.card_author {
+    color: white;
+    opacity: 0.9;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: -570px;
+    z-index: 2;
+    text-align: left;
+}
+
+.card_date2 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: -170px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 8.15);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.card-img2 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -750px;
+}
+
+.card_description2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: -170px;
+    z-index: 2;
+    text-align: left;
+}
+
+.card_author2 {
+    color: white;
+    opacity: 0.9;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: -170px;
+    z-index: 2;
+    text-align: left;
+}
+
+.card_date3 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 230px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 8.15);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.card-img3 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -750px;
+}
+
+.card_description3 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 230px;
+    z-index: 2;
+    text-align: left;
+    width: 335px;
+}
+
+.card_author3 {
+    color: white;
+    opacity: 0.9;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 230px;
+    z-index: 2;
+    text-align: left;
+}
+
+.footer_btn {
+    text-align: center;
+    margin-top: 450px;
+}
+
+.btn {
+    color: white;
+    background-color: #f72b3b;
+    width: 200px;
+    height: 60px;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}

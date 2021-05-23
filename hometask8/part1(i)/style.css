@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdde7e;
+}
+
+.container {
+    text-align: center;
+    align-items: baseline;
+}
+
+.ramka1 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 80px;
+    height: 440px;
+    width: 360px;
+    background-color: white;
+}
+
+.header1 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.smoke1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cup1 {
+    position: absolute;
+    padding-left: 95px;
+}
+
+.been1 {
+    position: absolute;
+    padding-top: 25px;
+    padding-left: 152px;
+    color: #a04f08;
+    opacity: 0.4;
+}
+
+.ramka1_h1 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.ramka1_text1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.ramka2 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 80px;
+    height: 500px;
+    width: 360px;
+    background-color: white;
+}
+
+.header2 {
+    text-align: center;
+    padding-top: 48px;
+}
+
+.smoke2 {
+    text-align: center;
+    padding-top: 37px;
+}
+
+.cup2 {
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 105px;
+}
+
+.been2 {
+    position: absolute;
+    padding-top: 18px;
+    padding-left: 153px;
+    color: #e7a71c;
+    opacity: 0.4;
+}
+
+.ramka2_h2 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.ramka2_text2 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.ramka3 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 80px;
+    height: 440px;
+    width: 360px;
+    background-color: white;
+}
+
+.header3 {
+    text-align: center;
+    padding-top: 48px;
+}
+
+.smoke3 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.cup3 {
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 105px;
+}
+
+.been3 {
+    position: absolute;
+    padding-top: 18px;
+    padding-left: 157px;
+    color: #e7a71c;
+    opacity: 0.4;
+}
+
+.ramka3_h3 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.ramka3_text3 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 15px;
+    opacity: 0.7;
+}
