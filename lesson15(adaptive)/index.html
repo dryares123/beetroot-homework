@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SEVICES</a>
+            <a href="#">GALLERY</a>
+            <a href="#">BLOG</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div id="navbar">
+            <a href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#services">SEVICES</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="#blog">BLOG</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div id="main">
+            <span style="font-size:24px;cursor:pointer" onclick="openNav()">&#9776; INFO</span>
+        </div>
+        <div class="container">
+            <div class="header__container">
+                <img class="header__img" src="img/logo.png" alt="logo">
+
+                <div class="header_nav">
+                    <nav class="nav">
+                        <a class="nav__link" href="#!">HOME</a>
+                        <a class="nav__link" href="#!">ABOUT</a>
+                        <a class="nav__link" href="#!">Services</a>
+                        <a class="nav__link" href="#!">Gallery</a>
+                        <a class="nav__link" href="#!">Blog</a>
+                        <a class="nav__link" href="#!">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="section-title">
+            <div class="container">
+                <h2 class="title section-title__title">Fresh Life</h2>
+                <p class="section-title__description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <a href="#!" class="btn">GET FREE NOW</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-about">
+        <div class="container">
+            <h2 class="title section-about__title">About Us</h2>
+            <div class="section-about__description">
+                <p class="section-about__text">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <p class="section-about__text">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-section">
+        <div class="container">
+            <div class="service-section__content">
+                <h2 class="service-section__title title title--square">
+                    <span class="title__inner-text">Our Services</span>
+                </h2>
+                <div class="service-section__list-wrapper">
+                    <ul class="service-section__list">
+                        <li class="service-section__item">
+                            <a href="#" class="card-anchor">
+                                <span class="card__text">online shopping</span>
+                                <img class="card__icon" src="img/1.png" alt="shopping">
+                            </a>
+                        </li>
+
+                        <li class="service-section__item">
+                            <a href="#" class="card-anchor">
+                                <span class="card__text">quality product</span>
+                                <img class="card__icon" src="img/2.png" alt="shopping">
+                            </a>
+                        </li>
+
+                        <li class="service-section__item">
+                            <a href="#" class="card-anchor">
+                                <span class="card__text">domestic &amp; international delivery</span>
+                                <img class="card__icon" src="img/3.png" alt="shopping">
+                            </a>
+                        </li>
+
+                        <li class="service-section__item">
+                            <a href="#" class="card-anchor">
+                                <span class="card__text">well organized</span>
+                                <img class="card__icon" src="img/4.png" alt="shopping">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery__section">
+        <div class="container">
+            <div class="gallery__header">
+                <div class="header__content">
+                    <h1 class="header__title">Gallery</h1>
+                    <p class="header__subtitle">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+
+
+            <div class="gallery__body">
+                <div class="gallery__item gallery__item--large">
+                    <img src="img/01.png">
+                </div>
+
+                <div class="gallery__item gallery__item--small">
+                    <img src="img/02.png">
+                </div>
+
+                <div class="gallery__item">
+                    <img src="img/05.png">
+                </div>
+
+                <div class="gallery__item">
+                    <img src="img/04.png">
+                </div>
+
+                <picture>
+                    <source media="(max-width:326ppi)" srcset="img/card1@2x.jpg">
+                    <source media="(max-width:326ppi)" srcset="img/card2@2x.jpg">
+                    <source media="(max-width:326ppi)" srcset="img/card4@2x.jpg">
+                    <source media="(max-width:326ppi)" srcset="img/card5@2x.jpg">
+                </picture>
+
+                <picture>
+                    <source media="(max-width:550ppi)" srcset="img/card1@2x.jpg">
+                    <source media="(max-width:550ppi)" srcset="img/card2@2x.jpg">
+                    <source media="(max-width:550ppi)" srcset="img/card4@2x.jpg">
+                    <source media="(max-width:550ppi)" srcset="img/card5@2x.jpg">
+                </picture>
+            </div>
+        </div>
+
+        <div class="container__btn">
+            <button class="btn">VIEW MORE</button>
+        </div>
+    </section>
+
+    <section class="section__footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <h1 class="footer__subscribe">Subscribe To Us</h1>
+                <p class="footer__description">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                <label class="input__container"><input class="email__input" type="email" name="email" placeholder="Your email address..."></label>
+                <div classs="footer_btn"><button class="button">SUBSCRIBE</button></div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section__blog">
+        <div class="container">
+            <div class="blog__content">
+                <h1 class="blog__title">Blog</h1>
+                <p class="blog__description">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br> reprehenderit in voluptate velit.</p>
+                <div class="about_images">
+                    <div class="card">
+                        <div class="card__date__day">20</div>
+                        <div class="card__date__month">NOV</div>
+                        <div class="card__title">
+                            Green Smoothies:<br>Too Much of a Good Thing?
+                        </div>
+                        <div class="card__description"> By Auskteez - 2 hours ago</div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__date__day">14</div>
+                        <div class="card__date__month">NOV</div>
+                        <div class="card__title">
+                            Growing Food and a “Thirst” for<br>Innovation
+                        </div>
+                        <div class="card__description"> By Auskteez - 3 hours ago</div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__date__day">10</div>
+                        <div class="card__date__month">NOV</div>
+                        <div class="card__title">
+                            Pesticides & Food: What You Need <br> to Know
+                        </div>
+                        <div class="card__description"> By Auskteez - 6 hours ago</div>
+                    </div>
+                </div>
+                <button class="blog__button">VIEW MORE</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__contact">
+        <div class="container">
+            <div class="contact__content">
+                <header class="header__container1">
+                    <h1 class="contact__title">Contact</h1>
+                    <p class="contact__subtitle">For new projects, ideas, business or anything<br>you'd like to discuss, contact with me!</p>
+                </header>
+
+                <main class="contact__fields">
+
+                    <div class="fields__content">
+                        <form class="form" action="#" method="GET">
+                            <label class="input-block">
+                                <input class="input-block__input" placeholder="Your name" required type="text" name="name" min="2">
+                            </label>
+
+                            <label class="input-block">
+                                <input class="input-block__input" placeholder="Your email" required type="email" name="email" min="2">
+                            </label>
+
+                            <label class="input-block">
+                                <input class="input-block__input" placeholder="Your phone number" required type="tel" name="tel" min="2">     
+                            </label>
+                            <textarea class="input-block__textarea" name="about" placeholder="Your message" minlength="100" required></textarea>
+                        </form>
+                    </div>
+
+                    <div class="section2__container">
+                        <div class="info__address">
+                            <h3>ADDRESS</h3>
+                            <p>123 City name, Street, City, Country</p>
+                        </div>
+
+                        <div class="info__email">
+                            <h3>EMAIL</h3>
+                            <p>cahee@domain.com</p>
+                        </div>
+
+                        <div class="info__phone">
+                            <h3>PHONE</h3>
+                            <p>+012 354 6789</p>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container1">
+            <p>© 2015 Company. All right reserved.</p>
+            <img src="img/logo.png" alt="logo">
+            <p>Made with <span class="love">love</span> by Auskteez</p>
+        </div>
+    </footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, slide down the navbar
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+        }
+    </script>
+</body>
+
+</html>
