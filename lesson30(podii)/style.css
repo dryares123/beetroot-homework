@@ -1,0 +1,13 @@
+.table__sort th {
+    color: white;
+    background: blue;
+    cursor: pointer;
+}
+
+.table__sort td,
+.table__sort th {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid red;
+}
