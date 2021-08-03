@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://unpkg.com/vue@next"></script>
+
+</head>
+<body>
+    <!-- <p class="subscription-message"></p>
+    <form method="post" class="subscription">
+        <input type="text" class="message">
+        <button class="button subscription-button">Подписаться</button>
+    </form>  -->
+
+    <!-- <div id="mouse">
+        <button @click="whichButton()">What mouse was push</button>
+    </div>
+
+    <input id="time" type=button value="Show Time" onclick="alert(new Date())"> -->
+
+    <div id="app">
+        <div v-bind:style="{ background: output }">{{ output }}</div>
+            <input type="text" v-model="input"/>
+
+        <button @click="onClick">{{ btnText }}</button>
+    </div>
+
+    <!-- <div id="color">
+        <div v-bind:style="{ color: output }">{{ output }}</div>
+            <input type="text" v-model="input">
+
+        <button @click="onClick">Start</button>
+    </div> -->
+
+    <div id="time">
+        <button @click="onClick">Show time</button>
+    </div>
+
+    <script>
+        const App = {
+            data() {
+                return {
+                    btnText: 'Подтвердить',
+                    input: '',
+                    output: ''
+                }
+            },
+            beforeUpdated () {
+                console.log(1111)
+            },
+            
+            methods: {
+                onClick() {
+                    this.output = this.input
+                    this.input = ''
+                }
+            }
+        }
+        Vue.createApp(App).mount('#app')
+        
+        // const Color = {
+        //     data: {
+        //     colors: ['red', 'yellow', 'green', 'blue']
+        //     },
+        //     methods: {
+        //         onClick() {
+        //             this.output = this.input
+        //             this.input = ''
+        //         }
+        //     }
+        // }
+        // Vue.createApp(Color).mount('#color');
+
+        const Time = {
+            el: '#time',
+            methods: {
+                onClick()
+                {
+                    alert(new Date());
+                }
+            }
+        }
+        Vue.createApp(Time).mount('#time')
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
